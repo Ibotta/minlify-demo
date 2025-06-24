@@ -1,0 +1,22 @@
+# --------------------------------------
+# Ibotta Repository Main Metadata File
+# Guide: https://catalog.ibops.net/repo/tech-knowledge/doc/user-guides/main-yml?branch=main
+# --------------------------------------
+name: minlify-demo
+description: minlify-demo
+tier: 2
+data_classification: 3
+# framework: <framework>
+
+#dashboards:
+#  - title: Datadog
+#    url: https://app.datadoghq.com/dashboard/YOUR-DASH-ID
+
+nav:
+  - title: Documentation
+    type: nav
+    children:
+      - title: Overview
+        file: README.md
+
+type: service
